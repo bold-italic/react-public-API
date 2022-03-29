@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: auto;
+  margin: 10px 100px;
+  padding: 10px;
+  background: #f7f7f7;
+  border: 1px solid #a0a0a0;
+  box-shadow: 1px 1px 3px #cfcfcf, -1px 1px 3px #cfcfcf;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #1d8348;
+}
+
+form {
+  text-align: center;
+  margin: 0px auto 10px;
+}
+
+form input {
+  width: 65%;
+  display: inline-block;
+  height: 2.8rem;
+  margin-right: 20px;
+}
+
+button.on {
+  background-color: #7d3c98;
+  border: 2px solid #7d3c98;
+  color: #f7f7f7;
+}
+
+button.off {
+  background-color: #1d8348;
+  border: 2px solid #1d8348;
+  color: #f7f7f7;
+}
+
+table {
+  width: 90%;
+}
+
+thead tr th {
+  color: #f7f7f7;
+  width: 1%;
+}
+
+tbody tr td {
+  color: #333;
+}
+
+#records {
+  font-size: 14px;
+  color: #1d8348;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 10px;
+}
