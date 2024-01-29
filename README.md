@@ -4,7 +4,7 @@ This application, written in `React`, creates a search form for a dataset that r
 
 ## Demo
 
-Here is a working live demo: https://react-public-api.epizy.com/
+Here is a working live demo: https://react-public-api-new.vercel.app/
 
 ## Built With
 
