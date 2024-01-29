@@ -14,8 +14,8 @@ Here is a working live demo: https://react-public-api-new.vercel.app/
 * ![JavaScript](https://img.shields.io/badge/-JavaScript-323330.svg?style=flat&logo=javascript&logoColor=F7DF1E)
 
 ## Features
-* A search form returns anywhere from 0 to a maximum of 100 results.
-* Automatically counts the number of records.
+* A search form returns anywhere from 0 to a maximum of 100 results
+* Automatically counts the number of records
 
 ## Acknowledgments
 
