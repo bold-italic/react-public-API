@@ -12,8 +12,7 @@ export default function App() {
 
   const [{ data }, setUrl] = useDataFetch(
     { data: [] },
-
-    "https://www.balldontlie.io/api/v1/players/?per_page=100&search="
+    "https://api.balldontlie.io/v1/players?per_page=100&search="
   );
 
   return (
@@ -22,8 +21,7 @@ export default function App() {
       <form
         onSubmit={(event) => {
           setUrl(
-            "https://www.balldontlie.io/api/v1/players/?per_page=100&search=" +
-              query
+            "https://api.balldontlie.io/v1/players?per_page=100&search=" + query
           );
           event.preventDefault();
         }}

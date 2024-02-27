@@ -7,9 +7,18 @@ const useDataFetch = (initialData, initialUrl) => {
 
   React.useEffect(() => {
     const fetchData = async function () {
-      const result = await axios(url);
-      setData(result.data);
+      try {
+        const result = await axios.get(url, {
+          headers: {
+            Authorization: process.env.REACT_APP_API_KEY,
+          },
+        });
+        setData(result.data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
     };
+
     fetchData();
   }, [url]);
 
